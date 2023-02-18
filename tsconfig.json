@@ -1,0 +1,8 @@
+{
+  "extends": "module-kit/tsconfig",
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "lib": ["dom", "ES2015"],
+    "jsx": "react"
+  }
+}

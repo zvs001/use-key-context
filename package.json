@@ -1,0 +1,31 @@
+{
+  "name": "use-key-context",
+  "version": "0.0.1",
+  "main": "index",
+  "types": "./index.d.ts",
+  "scripts": {
+    "prepack": "npx tsc --noEmit false",
+    "postpublish": "npm run clean",
+    "clean": "npx module-kit-clean"
+  },
+  "keywords": [
+    "react",
+    "react-hooks",
+    "hooks"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zvs001/use-key-context"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.18",
+    "module-kit": "^0.1.0",
+    "typescript": "^4.8.2"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  }
+}
